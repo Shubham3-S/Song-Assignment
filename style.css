@@ -1,0 +1,103 @@
+/* CSS RESET */
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* GENERAL STYLE */
+body{
+    background-image: linear-gradient(rgb(108, 108, 247), rgb(244, 120, 141) );
+    min-height: 100;
+
+}
+
+
+
+/* HEADER */
+.header{
+    font-family: "Permanent Marker", cursive;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header__h1{
+    text-align: center;
+    background-color: rgb(108, 108, 247) ;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color:#fff;
+}
+
+.header__nav{
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    color: #fff;
+    border-bottom: 2px solid black;
+}
+
+.header__ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    list-style: none;
+    padding: 0.75rem;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+/* MAIN */
+
+h2{
+    font-family: "Permanent Marker", cursive;
+    color: black;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+
+section{
+    font-family: "Oleo Script", system-ui;
+    text-align: center;
+    padding: 0.75rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+
+
+/* FOOTER */
+.footer{
+    font-family: "Permanent Marker", cursive;
+    position: sticky;
+    bottom:0;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+
+.big{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
